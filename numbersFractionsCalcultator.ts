@@ -1,7 +1,7 @@
 function numbersFractionsCalculator(array: number[]) {
 	const length = array.length;
 
-	// In case array is empty, then there's no internal fraction
+	// In case array is empty, then there's no internal fractions
 	if (!length) {
 		return {
 			positives: 0,
